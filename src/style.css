@@ -41,10 +41,11 @@ body {
 #form {
 	display: flex;
 	flex-direction: column;
+	gap: 21px;
 }
 
 #form input {
-	
+
 }
 
 .AddScore {
@@ -53,7 +54,7 @@ body {
 }
 
 .listContainer {
-	padding: 12px;
+
 }
 
 .List {
@@ -73,5 +74,9 @@ body {
 
 #butt button {
 
+
+}
+
+#name {
 
 }
