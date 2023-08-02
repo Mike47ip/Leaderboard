@@ -24,6 +24,10 @@ body {
 	/* justify-content: space-between; */
 }
 
+.head1 button {
+	display: inline-block;
+}
+
 .Recont {
 	padding: 20px;
 	width: 40%;
@@ -37,6 +41,10 @@ body {
 #form {
 	display: flex;
 	flex-direction: column;
+}
+
+#form input {
+	
 }
 
 .AddScore {
@@ -55,4 +63,15 @@ body {
 
 .List ul {
 	list-style: none;
+	padding-left: 5px;
+}
+
+#butt {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#butt button {
+
+
 }
