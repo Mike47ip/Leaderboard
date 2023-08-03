@@ -1,94 +1,92 @@
 body {
-	margin: auto;
-	padding: 0;
-	box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
 }
 
 #leadhead {
-	padding: 41px 41px 10px 41px;
+  padding: 41px 41px 10px 41px;
 }
 
 .heading {
-	font-size: large;
-	font-weight: bolder;
+  font-size: large;
+  font-weight: bolder;
 }
 
 .wrapper {
-	display: flex;
-	display: flex;
+  display: flex;
   justify-content: center;
 }
 
 .head1 {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .head1 button {
-	width: auto;
-	height: 30px;
+  width: auto;
+  height: 30px;
 }
 
 .Recont {
-	padding: 20px;
-	width: 40%;
-	padding: 15px;
+  width: 40%;
+  padding: 15px;
 }
 
 .recentScore {
-	padding-right: 25px;
+  padding-right: 25px;
 }
 
 #form {
-	display: flex;
-	flex-direction: column;
-	gap: 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
 }
 
 #form input {
-	width: auto;
-	height: 34px;
+  width: auto;
+  height: 34px;
 }
 
 .AddScore {
-	width: 40%;
-	padding: 15px;
+  width: 40%;
+  padding: 15px;
 }
 
 .List {
-	list-style: none;
-	border: 1px solid black;
+  list-style: none;
+  border: 1px solid black;
 }
 
 .List ul {
-	list-style: none;
+  list-style: none;
 }
 
 #butt {
-	display: flex;
-	justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 #butt button {
-	width: auto;
-	height: 30px;
-}
-
-.List #Scorelist li:nth-child(odd) {
-	background: rgb(170, 165, 165);
+  width: auto;
+  height: 30px;
 }
 
 #Scorelist li {
-	padding: 7px;
+  padding: 7px;
+}
+
+.List #Scorelist li:nth-child(odd) {
+  background: rgb(170, 165, 165);
 }
