@@ -21,11 +21,13 @@ body {
 
 .head1 {
 	display: flex;
-	/* justify-content: space-between; */
+	justify-content: space-between;
+	align-items: center;
 }
 
 .head1 button {
-	display: inline-block;
+	width: auto;
+	height: 30px;
 }
 
 .Recont {
