@@ -11,7 +11,7 @@ const newScore = `
 </form>`;
 
 const displayForm = () => {
-  addScore.insertAdjacentHTML('afterbegin', newScore);
+  addScore.innerHTML = newScore; // Set the innerHTML to the content of newScore
 };
 
 export default displayForm;

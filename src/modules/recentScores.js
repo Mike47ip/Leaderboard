@@ -21,7 +21,7 @@ const score = `
 </div>`;
 
 const displayScores = () => {
-  recentScore.insertAdjacentHTML('afterbegin', score);
+  recentScore.innerHTML = score;
 };
 
 export default displayScores;
