@@ -4,6 +4,16 @@ body {
 	box-sizing: border-box;
 }
 
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
+
 #leadhead {
 	padding: 41px 41px 10px 41px;
 }
@@ -46,17 +56,9 @@ body {
 	gap: 21px;
 }
 
-#form input {
-
-}
-
 .AddScore {
 	width: 40%;
 	padding: 15px;
-}
-
-.listContainer {
-
 }
 
 .List {
@@ -66,7 +68,6 @@ body {
 
 .List ul {
 	list-style: none;
-	padding-left: 5px;
 }
 
 #butt {
@@ -74,11 +75,10 @@ body {
 	justify-content: flex-end;
 }
 
-#butt button {
-
-
+.List #Scorelist li:nth-child(odd) {
+	background: rgb(170, 165, 165);
 }
 
-#name {
-
+#Scorelist li {
+	padding: 7px;
 }
