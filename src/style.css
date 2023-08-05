@@ -83,10 +83,14 @@ ul {
   height: 30px;
 }
 
+#Scorelist {
+  list-style: none;
+}
+
 #Scorelist li {
   padding: 7px;
 }
 
-.List #Scorelist li:nth-child(odd) {
+#Scorelist li:nth-child(odd) {
   background: rgb(170, 165, 165);
 }
