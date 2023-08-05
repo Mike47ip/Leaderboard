@@ -10,8 +10,8 @@ const newScore = `
  </div>
 </form>`;
 
-const displayForm = () => {
+const addNewScore = () => {
   addScore.innerHTML = newScore; // Set the innerHTML to the content of newScore
 };
 
-export default displayForm;
+export default addNewScore;
